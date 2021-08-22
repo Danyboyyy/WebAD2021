@@ -1,0 +1,43 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: antiquewhite;
+}
+
+header {
+  text-align: center;
+}
+
+address {
+  color: #404040 ;
+}
+
+h1 {
+  margin-bottom: 0px;
+}
+
+span {
+  font-style: normal;
+}
+
+.container { 
+  margin: 20px;
+}
+
+.titles {
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+.bullets {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.exp {
+  float: left;
+  width: 33%;
+}
+
+.content {
+  margin-top: 0px;
+}
