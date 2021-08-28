@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 5px;
+  padding: 0;
+}
+
+.logo > img {
+  width: 50px;
+}
+
+@media (max-width: 767px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: gray;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .menu {
+    display: none;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px;
+    text-align: center;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+  }
+} 
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    width: 40%;
+    text-align: center;
+  }
+
+  h1 {
+    width: 60%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: dimgray;
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+    margin: 2px 75px 2px 75px;
+    padding-left: 5px;
+  }
+
+  .social {
+    border-top: solid 5px #cccccc;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 25px;
+  }
+} 
+
+@media (min-width: 1025px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .logo {
+    width: 40%;
+    text-align: center;
+  }
+
+  h1 {
+    width: 60%;
+  }
+
+  .navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: dimgray;
+    color: white;
+    margin-bottom: 8px;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .menu {
+    list-style-type: none;
+    overflow: hidden;
+  }
+
+  li {
+    float: right;
+    padding: 0px 15px 0px 15px;
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0px 15px 0px 15px;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 1px #cccccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 5px;
+    width: 100% 
+  }
+
+  .social {
+    border-top: solid 5px #cccccc;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding-top: 25px;
+  }
+} 
